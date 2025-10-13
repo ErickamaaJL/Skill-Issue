@@ -9,53 +9,138 @@
   <title>SKILL ISSUES</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
     <div class="container">
-      <a class="navbar-brand fw-bold text-primary" href="https://psicologiaymente.com/directorio/ni/rankings/mejores-psicologos-leon-nicaragua">SKILL ISSUES</a>
+      <a class="navbar-brand fw-bold text-primary" href="#">
+        <i class="fas fa-code me-2"></i>SKILL ISSUES
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="../pagina1/index.html">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link" href="../pagina2/index.html">Ubicación</a></li>
-          <li class="nav-item"><a class="nav-link" href="../pagina1/contacto.html">Contacto</a></li>
-          <li class="nav-item"><a class="nav-link" href="../pagina1/biografia.html">Biografía</a></li>
-          <li class="nav-item"><a class="nav-link" href="../pagina1/formulario.html">Formulario</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#equipo">Equipo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#ubicacion">Ubicación</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <header class="text-center py-5 bg-gradient">
-    <h1 class="text-primary fw-bold">SKILL ISSUES</h1>
-    <p class="text-light">Compañía de código abierto</p>
+  <!-- Hero Section -->
+  <header id="inicio" class="text-center py-5 bg-gradient hero-section">
+    <div class="container">
+      <h1 class="text-primary fw-bold display-4 mb-3">SKILL ISSUES</h1>
+      <p class="text-light lead mb-4">Compañía de código abierto - Transformando ideas en realidades digitales</p>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <p class="text-light">Desarrollamos soluciones tecnológicas innovadoras que impulsan el crecimiento y éxito de nuestros clientes en el mundo digital.</p>
+        </div>
+      </div>
+      <a href="#servicios" class="btn btn-primary btn-lg mt-3">Conoce nuestros servicios</a>
+    </div>
   </header>
 
-  <section class="container text-center my-5">
-    <div class="row">
-      <div class="col-md-6">
-        <h3 class="text-primary">Misión</h3>
-        <p>Brindar soluciones tecnológicas innovadoras y eficientes que impulsen el crecimiento y éxito de nuestros clientes en un mundo digital en constante evolución.</p>
-      </div>
-      <div class="col-md-6">
-        <h3 class="text-primary">Visión</h3>
-        <p>Ser reconocidos como líderes en el desarrollo de software y servicios tecnológicos, transformando ideas en realidades digitales que mejoren la vida de las personas.</p>
+  <!-- Estadísticas -->
+  <section class="py-5 bg-dark">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-3 mb-4">
+          <h3 class="text-primary fw-bold display-4">50+</h3>
+          <p class="text-light">Proyectos Completados</p>
+        </div>
+        <div class="col-md-3 mb-4">
+          <h3 class="text-primary fw-bold display-4">25+</h3>
+          <p class="text-light">Clientes Satisfechos</p>
+        </div>
+        <div class="col-md-3 mb-4">
+          <h3 class="text-primary fw-bold display-4">5</h3>
+          <p class="text-light">Años de Experiencia</p>
+        </div>
+        <div class="col-md-3 mb-4">
+          <h3 class="text-primary fw-bold display-4">15+</h3>
+          <p class="text-light">Repositorios Open Source</p>
+        </div>
       </div>
     </div>
   </section>
 
+  <!-- Misión y Visión -->
+  <section class="container text-center my-5">
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <div class="card-body p-4">
+            <i class="fas fa-bullseye text-primary display-4 mb-3"></i>
+            <h3 class="text-primary">Misión</h3>
+            <p>Brindar soluciones tecnológicas innovadoras y eficientes que impulsen el crecimiento y éxito de nuestros clientes en un mundo digital en constante evolución.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <div class="card-body p-4">
+            <i class="fas fa-eye text-primary display-4 mb-3"></i>
+            <h3 class="text-primary">Visión</h3>
+            <p>Ser reconocidos como líderes en el desarrollo de software y servicios tecnológicos, transformando ideas en realidades digitales que mejoren la vida de las personas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="py-5 bg-dark">
+    <div class="container">
+      <h2 class="text-center text-primary mb-5">Nuestros Servicios</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card text-center h-100">
+            <div class="card-body">
+              <i class="fas fa-laptop-code text-primary display-4 mb-3"></i>
+              <h4 class="text-primary">Desarrollo Web</h4>
+              <p>Creación de sitios web y aplicaciones web responsivas, modernas y de alto rendimiento.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card text-center h-100">
+            <div class="card-body">
+              <i class="fas fa-mobile-alt text-primary display-4 mb-3"></i>
+              <h4 class="text-primary">Apps Móviles</h4>
+              <p>Desarrollo de aplicaciones móviles nativas e híbridas para iOS y Android.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card text-center h-100">
+            <div class="card-body">
+              <i class="fas fa-database text-primary display-4 mb-3"></i>
+              <h4 class="text-primary">Base de Datos</h4>
+              <p>Diseño, implementación y optimización de bases de datos relacionales y NoSQL.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Acordeón Información -->
   <section class="container mb-5">
     <div class="accordion" id="accordionskill">
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-            ¿Quiénes somos?
+            <i class="fas fa-users me-2"></i> ¿Quiénes somos?
           </button>
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionskill">
           <div class="accordion-body">
-            Somos una compañía dedicada a la creación de software de código abierto, con el objetivo de ayudar a la comunidad de desarrolladores a tener acceso a herramientas gratuitas y de calidad.
+            Somos una compañía dedicada a la creación de software de código abierto, con el objetivo de ayudar a la comunidad de desarrolladores a tener acceso a herramientas gratuitas y de calidad. Nuestro equipo está formado por apasionados de la tecnología comprometidos con la innovación.
           </div>
         </div>
       </div>
@@ -63,12 +148,12 @@
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-            ¿Qué hacemos?
+            <i class="fas fa-tasks me-2"></i> ¿Qué hacemos?
           </button>
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionskill">
           <div class="accordion-body">
-            Desarrollamos software de código abierto para diferentes plataformas y lenguajes, ofreciendo soporte y actualizaciones constantes.
+            Desarrollamos software de código abierto para diferentes plataformas y lenguajes, ofreciendo soporte y actualizaciones constantes. Nuestros servicios incluyen desarrollo web, aplicaciones móviles, consultoría tecnológica y soluciones personalizadas para empresas.
           </div>
         </div>
       </div>
@@ -76,7 +161,7 @@
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
-            Roles
+            <i class="fas fa-user-tie me-2"></i> Roles del Equipo
           </button>
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionskill">
@@ -88,13 +173,15 @@
                   <th>Nombre</th>
                   <th>Edad</th>
                   <th>Función</th>
+                  <th>Especialidad</th>
                 </tr>
               </thead>
               <tbody>
-                <tr><td>1</td><td>Cafeina</td><td>20</td><td>CEO</td></tr>
-                <tr><td>2</td><td>Erick</td><td>18</td><td>Programación</td></tr>
-                <tr><td>3</td><td>Gonzalo</td><td>20</td><td>Testeo</td></tr>
-                <tr><td>4</td><td>Josue</td><td>18</td><td>Diseño</td></tr>
+                <tr><td>1</td><td>Cafeina</td><td>20</td><td>CEO</td><td>Gestión de Proyectos</td></tr>
+                <tr><td>2</td><td>Erick</td><td>18</td><td>Programación</td><td>Frontend Development</td></tr>
+                <tr><td>3</td><td>Gonzalo</td><td>20</td><td>Testeo</td><td>QA & Testing</td></tr>
+                <tr><td>4</td><td>Josue</td><td>18</td><td>Diseño</td><td>UI/UX Design</td></tr>
+                <tr><td>5</td><td>Reynaldo</td><td>19</td><td>Backend</td><td>Server Development</td></tr>
               </tbody>
             </table>
           </div>
@@ -103,28 +190,80 @@
     </div>
   </section>
 
+  <!-- Proyectos Destacados -->
+  <section id="proyectos" class="py-5 bg-dark">
+    <div class="container">
+      <h2 class="text-center text-primary mb-5">Proyectos Destacados</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h4 class="text-primary">EduTech Platform</h4>
+              <p>Plataforma de aprendizaje en línea con cursos interactivos y seguimiento de progreso.</p>
+              <div class="mt-3">
+                <span class="badge bg-primary me-1">React</span>
+                <span class="badge bg-primary me-1">Node.js</span>
+                <span class="badge bg-primary">MongoDB</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h4 class="text-primary">HealthTracker App</h4>
+              <p>Aplicación móvil para seguimiento de salud y bienestar con recordatorios personalizados.</p>
+              <div class="mt-3">
+                <span class="badge bg-primary me-1">Flutter</span>
+                <span class="badge bg-primary me-1">Firebase</span>
+                <span class="badge bg-primary">Dart</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h4 class="text-primary">E-commerce Solution</h4>
+              <p>Solución completa de comercio electrónico con panel de administración y análisis.</p>
+              <div class="mt-3">
+                <span class="badge bg-primary me-1">Vue.js</span>
+                <span class="badge bg-primary me-1">Laravel</span>
+                <span class="badge bg-primary">MySQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Valores -->
   <section class="container text-center my-5">
     <h2 class="text-primary mb-4">Nuestros Valores</h2>
     <div class="row">
-      <div class="col-md-4">
-        <div class="card bg-dark text-light shadow">
+      <div class="col-md-4 mb-4">
+        <div class="card bg-dark text-light shadow h-100">
           <div class="card-body">
+            <i class="fas fa-lightbulb text-primary display-4 mb-3"></i>
             <h5 class="card-title text-primary">Innovación</h5>
             <p class="card-text">Buscamos siempre nuevas formas de crear y mejorar nuestras soluciones tecnológicas.</p>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card bg-dark text-light shadow">
+      <div class="col-md-4 mb-4">
+        <div class="card bg-dark text-light shadow h-100">
           <div class="card-body">
+            <i class="fas fa-hands-helping text-primary display-4 mb-3"></i>
             <h5 class="card-title text-primary">Colaboración</h5>
             <p class="card-text">Creemos en el trabajo en equipo para lograr mejores resultados y fomentar el aprendizaje mutuo.</p>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card bg-dark text-light shadow">
+      <div class="col-md-4 mb-4">
+        <div class="card bg-dark text-light shadow h-100">
           <div class="card-body">
+            <i class="fas fa-handshake text-primary display-4 mb-3"></i>
             <h5 class="card-title text-primary">Compromiso</h5>
             <p class="card-text">Nos esforzamos en ofrecer productos y servicios de alta calidad que beneficien a la comunidad.</p>
           </div>
@@ -133,36 +272,112 @@
     </div>
   </section>
 
- <section class="container text-center my-5">
-  <h2 class="text-primary mb-4">Integrantes</h2>
-  <div class="d-flex flex-wrap justify-content-center gap-4 integrantes">
-    <a href="https://github.com/fn-cafeina">
-      <img src="./photos/cafe.png" alt="Cafeina" class="rounded-circle img-fluid">
-      <p>Cafeina</p>
-    </a>
-    <a href="https://github.com/ErickamaaJL">
-      <img src="./photos/Erick.jpeg" alt="Erick" class="rounded-circle img-fluid">
-      <p>Erick</p>
-    </a>
-    <a href="https://github.com/Gonza0408">
-      <img src="./photos/Gonzalo.webp" alt="Gonzalo" class="rounded-circle img-fluid">
-      <p>Gonzalo</p>
-    </a>
-    <a href="https://github.com/Rasho0">
-      <img src="./photos/Josue.webp" alt="Josue" class="rounded-circle img-fluid">
-      <p>Josue</p>
-    </a>
-    <a href="https://github.com/Reynaldo935">
-      <img src="./photos/Reynaldo.jpeg" alt="Reynaldo" class="rounded-circle img-fluid">
-      <p>Reynaldo</p>
-    </a>
-  </div>
-</section>
+  <!-- Equipo -->
+  <section id="equipo" class="py-5 bg-dark">
+    <div class="container text-center">
+      <h2 class="text-primary mb-4">Nuestro Equipo</h2>
+      <p class="text-light mb-5">Conoce a los talentosos desarrolladores detrás de SKILL ISSUES</p>
+      <div class="d-flex flex-wrap justify-content-center gap-4 integrantes">
+        <div class="team-member">
+          <a href="https://github.com/fn-cafeina">
+            <img src="./photos/cafe.png" alt="Cafeina" class="rounded-circle img-fluid">
+            <p>Cafeina</p>
+            <small>CEO & Project Manager</small>
+          </a>
+        </div>
+        <div class="team-member">
+          <a href="https://github.com/ErickamaaJL">
+            <img src="./photos/Erick.jpeg" alt="Erick" class="rounded-circle img-fluid">
+            <p>Erick</p>
+            <small>Frontend Developer</small>
+          </a>
+        </div>
+        <div class="team-member">
+          <a href="https://github.com/Gonza0408">
+            <img src="./photos/Gonzalo.webp" alt="Gonzalo" class="rounded-circle img-fluid">
+            <p>Gonzalo</p>
+            <small>QA & Tester</small>
+          </a>
+        </div>
+        <div class="team-member">
+          <a href="https://github.com/Rasho0">
+            <img src="./photos/Josue.webp" alt="Josue" class="rounded-circle img-fluid">
+            <p>Josue</p>
+            <small>UI/UX Designer</small>
+          </a>
+        </div>
+        <div class="team-member">
+          <a href="https://github.com/Reynaldo935">
+            <img src="./photos/Reynaldo.jpeg" alt="Reynaldo" class="rounded-circle img-fluid">
+            <p>Reynaldo</p>
+            <small>Backend Developer</small>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <footer class="bg-dark text-light text-center py-4 mt-auto">
-    <p>© 2025 SKILL ISSUES. Todos los derechos reservados.</p>
+  <!-- Contacto -->
+  <section id="contacto" class="py-5">
+    <div class="container">
+      <h2 class="text-center text-primary mb-5">Contáctanos</h2>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h4 class="text-primary mb-4">Información de Contacto</h4>
+              <p><i class="fas fa-map-marker-alt text-primary me-2"></i> León, Nicaragua</p>
+              <p><i class="fas fa-phone text-primary me-2"></i> +505 1234 5678</p>
+              <p><i class="fas fa-envelope text-primary me-2"></i> info@skillissues.com</p>
+              <p><i class="fas fa-clock text-primary me-2"></i> Lunes - Viernes: 9:00 AM - 6:00 PM</p>
+              
+              <div class="mt-4">
+                <h5 class="text-primary">Síguenos</h5>
+                <div class="d-flex gap-3 mt-3">
+                  <a href="#" class="text-primary"><i class="fab fa-github fa-2x"></i></a>
+                  <a href="#" class="text-primary"><i class="fab fa-linkedin fa-2x"></i></a>
+                  <a href="#" class="text-primary"><i class="fab fa-twitter fa-2x"></i></a>
+                  <a href="#" class="text-primary"><i class="fab fa-instagram fa-2x"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h4 class="text-primary mb-4">Envíanos un Mensaje</h4>
+              <form>
+                <div class="mb-3">
+                  <input type="text" class="form-control bg-dark text-light" placeholder="Nombre" required>
+                </div>
+                <div class="mb-3">
+                  <input type="email" class="form-control bg-dark text-light" placeholder="Email" required>
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control bg-dark text-light" placeholder="Asunto" required>
+                </div>
+                <div class="mb-3">
+                  <textarea class="form-control bg-dark text-light" rows="4" placeholder="Mensaje" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Enviar Mensaje</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light text-center py-4">
+    <div class="container">
+      <p class="mb-2">© 2025 SKILL ISSUES. Todos los derechos reservados.</p>
+      <p class="mb-0">Compañía de código abierto - Desarrollando el futuro, juntos.</p>
+    </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
 </body>
 </html>
